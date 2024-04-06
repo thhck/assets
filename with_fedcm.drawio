@@ -4,7 +4,7 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="uP5WmYj4boi_SPSR-1-8-1" value="&lt;div&gt;Relying Party &lt;br&gt;&lt;/div&gt;&lt;div&gt;( website ) &lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+        <mxCell id="uP5WmYj4boi_SPSR-1-8-1" value="&lt;div&gt;Relying Party &lt;br&gt;&lt;/div&gt;&lt;div&gt;(website) &lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
           <mxGeometry x="30" y="40" width="120" height="550" as="geometry" />
         </mxCell>
         <mxCell id="uP5WmYj4boi_SPSR-1-8-2" value="&lt;div&gt;Web Browser&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
@@ -15,10 +15,10 @@
             <mxPoint x="364.9655172413793" y="250" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uP5WmYj4boi_SPSR-1-8-3" value="The browser pop a windows and ask Alice to &lt;br&gt;select an IdP" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="uP5WmYj4boi_SPSR-1-8-3" value="The browser pops a window and asks Alice to &lt;br&gt;select an IdP" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="305" y="160" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="uP5WmYj4boi_SPSR-1-8-4" value="&lt;div align=&quot;center&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp;Alice click on&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;center&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp;&quot;Sign in&quot;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+        <mxCell id="uP5WmYj4boi_SPSR-1-8-4" value="&lt;div align=&quot;center&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp;Alice clicks on&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;center&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp;&quot;Sign in&quot;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="30" y="120" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uP5WmYj4boi_SPSR-1-8-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
@@ -27,7 +27,7 @@
             <mxPoint x="304" y="190" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uP5WmYj4boi_SPSR-1-8-6" value="&lt;div&gt;The website triggers &lt;br&gt;&lt;/div&gt;&lt;div&gt;the browser FedCM API &lt;br&gt;&lt;/div&gt;&lt;div&gt;by calling:&lt;br&gt;`navigator.credentials.get`&lt;br&gt;&lt;/div&gt;&lt;div&gt;with an array of IdP &lt;br&gt;&lt;/div&gt;&lt;div&gt;urls as argument&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uP5WmYj4boi_SPSR-1-8-5">
+        <mxCell id="uP5WmYj4boi_SPSR-1-8-6" value="&lt;div&gt;The website triggers &lt;br&gt;&lt;/div&gt;&lt;div&gt;the browser FedCM API &lt;br&gt;&lt;/div&gt;&lt;div&gt;by calling:&lt;br&gt;`navigator.credentials.get`&lt;br&gt;&lt;/div&gt;&lt;div&gt;with an array of IdP &lt;br&gt;&lt;/div&gt;&lt;div&gt;URLs as argument&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uP5WmYj4boi_SPSR-1-8-5">
           <mxGeometry x="0.0005" y="3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -35,7 +35,7 @@
         <mxCell id="uP5WmYj4boi_SPSR-1-8-7" value="&lt;div align=&quot;center&quot;&gt;Alice is now &lt;br&gt;&lt;/div&gt;&lt;div align=&quot;center&quot;&gt;signed in&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="20" y="480" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="uP5WmYj4boi_SPSR-1-8-10" value="&lt;div&gt;Identity Provider&lt;/div&gt;&lt;div&gt;( Github )&lt;br&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+        <mxCell id="uP5WmYj4boi_SPSR-1-8-10" value="&lt;div&gt;Identity Provider&lt;/div&gt;&lt;div&gt;(GitHub)&lt;br&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
           <mxGeometry x="520" y="40" width="100" height="540" as="geometry" />
         </mxCell>
         <mxCell id="uP5WmYj4boi_SPSR-1-8-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="uP5WmYj4boi_SPSR-1-8-14">
@@ -43,7 +43,7 @@
             <mxPoint x="364.9999999999998" y="310" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uP5WmYj4boi_SPSR-1-8-14" value="The browser manage authentification..." style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="uP5WmYj4boi_SPSR-1-8-14" value="The browser manages authentication..." style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="305" y="350" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="uP5WmYj4boi_SPSR-1-8-18" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1">
@@ -58,12 +58,12 @@
             <mxPoint x="300" y="370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uP5WmYj4boi_SPSR-1-8-25" value="&lt;div&gt;...and return the&lt;/div&gt;&lt;div&gt;access token&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uP5WmYj4boi_SPSR-1-8-19">
+        <mxCell id="uP5WmYj4boi_SPSR-1-8-25" value="&lt;div&gt;...and returns the&lt;/div&gt;&lt;div&gt;access token&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uP5WmYj4boi_SPSR-1-8-19">
           <mxGeometry x="0.0063" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uP5WmYj4boi_SPSR-1-8-21" value="Alice select an IdP,&lt;br&gt;( Github for example ) &lt;br&gt; " style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="uP5WmYj4boi_SPSR-1-8-21" value="Alice selects an IdP,&lt;br&gt;(GitHub) &lt;br&gt; " style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="305" y="250" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uP5WmYj4boi_SPSR-1-8-24" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="uP5WmYj4boi_SPSR-1-8-14" target="uP5WmYj4boi_SPSR-1-8-10">
