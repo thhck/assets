@@ -1,0 +1,67 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:125.0) Gecko/20100101 Firefox/125.0" version="25.0.1">
+  <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
+    <mxGraphModel dx="1444" dy="2095" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wDBCBlUo8X7oHAZYJrFL-2" value="Alice" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=40;" parent="1" vertex="1">
+          <mxGeometry x="110" y="50" width="100" height="1040" as="geometry" />
+        </mxCell>
+        <mxCell id="wDBCBlUo8X7oHAZYJrFL-4" value="" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="145" y="-20" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wDBCBlUo8X7oHAZYJrFL-7" value="Solid-Todo.net" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=40;" parent="1" vertex="1">
+          <mxGeometry x="325" y="50" width="100" height="1050" as="geometry" />
+        </mxCell>
+        <mxCell id="wDBCBlUo8X7oHAZYJrFL-9" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" target="wDBCBlUo8X7oHAZYJrFL-7" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="138" as="sourcePoint" />
+            <mxPoint x="364.5" y="138" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wDBCBlUo8X7oHAZYJrFL-10" value="Alice visite Solid-todo.net" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="170" y="138" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="V8exRMLNTqDxOJBgRlz7-1" value="&lt;b&gt;&lt;u&gt;Scenario&lt;/u&gt;&lt;/b&gt;: Alice wants to use Solid Todo Web App. Solid Todo is a solid app that require user to have a Pod to store todo list.&amp;nbsp; Alice don&#39;t have a Pod. She don&#39;t want to go through the process of creating one. However, she has a account with one of the famous IDP: google, facebook, github ..." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="-180" width="420" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="V8exRMLNTqDxOJBgRlz7-2" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="wDBCBlUo8X7oHAZYJrFL-7" target="wDBCBlUo8X7oHAZYJrFL-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="230" as="sourcePoint" />
+            <mxPoint x="450" y="70" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="260" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V8exRMLNTqDxOJBgRlz7-3" value="Return a login page:" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="195" y="230" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="V8exRMLNTqDxOJBgRlz7-15" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="175" y="270" width="180" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="V8exRMLNTqDxOJBgRlz7-9" value="&lt;div&gt;Solid Todo&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.window;align=left;verticalAlign=top;spacingLeft=8;strokeColor2=#008cff;strokeColor3=#c4c4c4;fontColor=#666666;mainText=;fontSize=17;labelBackgroundColor=none;whiteSpace=wrap;" vertex="1" parent="V8exRMLNTqDxOJBgRlz7-15">
+          <mxGeometry width="180" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="V8exRMLNTqDxOJBgRlz7-11" value="Login with: " style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="V8exRMLNTqDxOJBgRlz7-15">
+          <mxGeometry y="29.998823529411762" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="V8exRMLNTqDxOJBgRlz7-12" value="&lt;div&gt;Your Pod&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;arcSize=24;" vertex="1" parent="V8exRMLNTqDxOJBgRlz7-15">
+          <mxGeometry x="30" y="60.001176470588234" width="120" height="28.235294117647058" as="geometry" />
+        </mxCell>
+        <mxCell id="V8exRMLNTqDxOJBgRlz7-13" value="Gihub via proxy" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="V8exRMLNTqDxOJBgRlz7-15">
+          <mxGeometry x="30" y="99.99882352941177" width="120" height="28.235294117647058" as="geometry" />
+        </mxCell>
+        <mxCell id="V8exRMLNTqDxOJBgRlz7-19" value="Alice don&#39;t know whats a Pod. SHe clicks on the green button" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="490" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="V8exRMLNTqDxOJBgRlz7-20" value="solid-proxy.net" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=40;" vertex="1" parent="1">
+          <mxGeometry x="500" y="50" width="100" height="1050" as="geometry" />
+        </mxCell>
+        <mxCell id="V8exRMLNTqDxOJBgRlz7-21" value="Github" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=40;" vertex="1" parent="1">
+          <mxGeometry x="710" y="50" width="100" height="1050" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
